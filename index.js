@@ -49,6 +49,8 @@ function hideBall(){
 }
 
 
+
+
 //click get answer
 //see question AND a random answerButton
 //input field then clears
