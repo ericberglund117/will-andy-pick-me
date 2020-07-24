@@ -22,8 +22,9 @@ color: #2B4E80;
 grid-column-start: 2;
 grid-column-end: 4;
 grid-row-start: 1;
-grid-row-end: 1;
 margin: 20px;
+display: flex;
+justify-content: center;
 }
 
 .main-generator{
@@ -33,7 +34,7 @@ margin: 20px;
   padding: 10px;
   width: 63%;
   height: 100%;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
   margin-left:100px;
 }
