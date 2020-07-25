@@ -13,27 +13,27 @@ clear button disabled: #D0CDCD
 
 body{
   display: grid;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header {
-font-family: 'Life Savers', serif;
-color: #2B4E80;
-grid-column-start: 2;
-grid-column-end: 4;
-grid-row-start: 1;
-margin: 20px;
-display: flex;
-justify-content: center;
+  font-family: 'Life Savers', serif;
+  color: #2B4E80;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-generator{
-  flex-direction: column;
-  background-color: #E6ECF4;
+  display:flex;
   justify-content: center;
+  background-color: #E6ECF4;
   padding: 10px;
-  width: 63%;
-  height: 92%;
+  width: 55%;
+  height: 20rem;
   grid-column-start: 2;
   grid-column-end: 3;
   margin-left:100px;
@@ -48,16 +48,20 @@ background: 100
 
 .question-input{
 align-self: center;
-width: 93%;
+width: 20.5rem;
 height: 30px;
 border: none;
 }
 
 .get-answer-button{
-width: 95%;
+width: 20.5rem;
 margin: 5px;
 background-color: #2B4E80;
 color: white;
+}
+
+.question-asked {
+  margin-top: 40px;
 }
 
 .clear-button{
@@ -65,12 +69,20 @@ color: white;
   border: none;
   background-color: #D0CDCD;
   color: white;
+  position: relative;
+  top: 65px;
+}
+
+.answer {
+  align-self: center;
 }
 
 .magic-8-ball img{
-  width: 80px;
+  width: 7rem;
   align-self: center;
-  padding: 20px;
+  padding: 7px;
+  position: relative;
+  top: 30px;
 }
 
 .woody{
@@ -80,7 +92,7 @@ color: white;
 }
 
 .woody-img{
-  height: 230px;
-  width: 200px;
+  height: 21rem;
+  width: 15rem;
 
 }

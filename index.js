@@ -45,7 +45,7 @@ function getAnswer() {
 };
 
 function hideBall(){
-  eightBall.classList.add("hidden");
+  eightBall.style.display = "none";
 }
 
 
