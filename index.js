@@ -37,7 +37,7 @@ function randomAnswer(possibleAnswers){
   return Math.floor(Math.random() * possibleAnswers.length)
 };
 
-function getAnswer() {
+function getAnswer(){
   event.preventDefault();
   questionAsked.innerText = input.value
   answer.innerText = possibleAnswers[randomAnswer(possibleAnswers)];
